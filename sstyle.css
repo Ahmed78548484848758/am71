@@ -63,9 +63,39 @@ body{
     height: 100px;
     margin-bottom: 10px;
 }
-@media (max-width:800px) {
-    .contact-container{
-        width: 800vw;
-    margin-left: -350px;
+@media only screen and (max-width: 800px){
+    body{
+        width: 360px;
+        height: 740px;
+    }
+   
+    .contact-left-title{;
+        margin-top: 25px;
+        margin-right: -375px;
+        
+    }
+    .contact-container form{
+        width: 200px;
+        height: 200px
+    }
+    h1{
+        margin-right: 460px;
+        font-size: 18px;
+    }
+    .contact-container input{
+        font-size: 14px;
+    }
+    .contact-container textarea{
+        font-size: 16px;
+    }
+    .btn{
+        padding: 5px 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .contact-container h1{
+        font-size: 50px;
+        margin-left: 35px;
+        
     }
 }
