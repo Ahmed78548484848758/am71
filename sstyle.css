@@ -63,3 +63,11 @@ body{
     height: 100px;
     margin-bottom: 10px;
 }
+@media (max-width:800px) {
+    .contact-container{
+        width: 80vw;
+    }
+    .contact-left-title{
+        width: 80vw;
+    }
+}
