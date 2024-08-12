@@ -65,13 +65,7 @@ body{
 }
 @media (max-width:800px) {
     .contact-container{
-        width: 80vw;
+        width: 800vw;
     margin-left: -320px;
     }
-    .contact-left-title{
-        width: 80vw;
-        margin-right: 260px;
-        margin-top: -75px;
-    }
 }
-   
