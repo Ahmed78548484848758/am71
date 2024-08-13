@@ -83,6 +83,20 @@ body{
         
     }
     .contact-container .contact-left{
-        width: 340px;
+        width: 240px;
+        min-height: 100px;
+        margin-left: -290px;
     }
+    .contact-container input{
+        width: 220px;
+    }
+    .contact-container textarea{
+        width: 210px;
+        min-height: 130px;
+    }
+    .contact-container .btn{
+        margin-left: 55px;
+        margin-top: -15px;
+    }
+
     }
