@@ -63,39 +63,26 @@ body{
     height: 100px;
     margin-bottom: 10px;
 }
-@media only screen and (max-width: 800px){
-    body{
-        width: 360px;
-        height: 740px;
-    }
+@media screen and (max-width:800px) {
    
-    .contact-left-title{;
-        margin-top: 25px;
-        margin-right: -375px;
-        
+    html{
+        width: 100%;
     }
-    .contact-container form{
-        width: 200px;
-        height: 200px
-    }
-    h1{
-        margin-right: 460px;
-        font-size: 18px;
-    }
-    .contact-container input{
-        font-size: 14px;
-    }
-    .contact-container textarea{
-        font-size: 16px;
-    }
-    .btn{
-        padding: 5px 20px;
-        margin-left: 20px;
-        margin-bottom: 10px;
-    }
+    body {
+        width: 100%;
+        }
+    .contact-container{
+            margin-left: -370px;
+            padding: 0px;
+            
+            
+        }
     .contact-container h1{
-        font-size: 50px;
-        margin-left: 35px;
+        font-size: 40px;
+        margin-right: 60px;
         
     }
-}
+    .contact-container .contact-left{
+        width: 340px;
+    }
+    }
