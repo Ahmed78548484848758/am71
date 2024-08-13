@@ -82,14 +82,17 @@ body{
         margin-right: 60px;
         margin-top: 170px;
         
+        
     }
     .contact-container .contact-left{
+        display: flex;
+        align-items: left;
         width: 240px;
         min-height: 100px;
-        margin-left: -270px;
+        margin-left: -230px;
     }
     .contact-container input{
-        width: 220px;
+        width: 220px
     }
     .contact-container textarea{
         width: 210px;
@@ -99,5 +102,5 @@ body{
         margin-left: 55px;
         margin-top: -15px;
     }
-
-    }
+    
+}
